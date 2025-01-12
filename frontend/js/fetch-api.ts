@@ -34,9 +34,6 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     };
 
-    // Initialize App State
-    setLoggedInState(isLoggedIn());
-
     // Fetch and display expenses
     const fetchExpenses = async () => {
         try {
