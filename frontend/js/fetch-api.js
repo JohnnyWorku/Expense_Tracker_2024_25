@@ -69,8 +69,6 @@ window.addEventListener("DOMContentLoaded", function () {
             btn.style.display = role === "admin" ? "inline-block" : "none";
         });
     };
-    // Initialize App State
-    setLoggedInState(isLoggedIn());
     // Fetch and display expenses
     var fetchExpenses = function () { return __awaiter(void 0, void 0, void 0, function () {
         var response, expenses, error_1;
@@ -215,8 +213,8 @@ window.addEventListener("DOMContentLoaded", function () {
             return;
         }
         // Role-based logic for login (simple example)
-        if ((email === "admin@example.com" && password === "adminpassword" && role === "admin") ||
-            (email === "user@example.com" && password === "userpassword" && role === "user")) {
+        if ((email === "admin32@gmail.com" && password === "adminpassword" && role === "admin") ||
+            (email === "user32@gmail.com" && password === "userpassword" && role === "user")) {
             alert("Login successful!");
             setLoggedInState(true, role);
             // Fetch expenses after login
